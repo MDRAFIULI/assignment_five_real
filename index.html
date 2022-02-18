@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track your earn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <section>
+            <h1 class="text-8xl text-green-600 text-center my-16">Track Your Earn</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                    <img class="lg:mx-8" style="height: 600px; width: 700px;" class="" src="money.PNG" alt="">
+                </div>
+                <div class="mx-auto">
+                    <h3 id="error-massage" class="text-red-400 text-2xl error">pleas fill all requirement properly</h3>
+                    <h4 class="text-3xl mb-5">Income</h4>
+                    <p>Income :</p>
+                    <input class="bg-slate-300" type="text" name="" id="income-input">
+                    <h4 class="text-3xl mb-5">Expense</h4>
+                    <p class="mb-2">Food :</p>
+                    <input class="bg-slate-300" type="text" name="" id="food-input">
+                    <p class="mb-2">Rent :</p>
+                    <input class="bg-slate-300" type="text" name="" id="rent-input">
+                    <p class="mb-2"></p>Clothes:</p> <input class="bg-slate-300 mx-auto" type="text" name=""
+                        id="clothes-input">
+                    <br>
+                    <button id="calculate-btn" class="bg-green-500 text-white px-3 py-1 mt-3 mb-8">Calculate</button>
+                    <p class="text-2xl">Total Expense : <span id="total-expense">00</span></p>
+                    <p class="text-2xl">Balance : <span id="balance">00</span></p>
+                    <p class="mt-8 mb-4">Save :</p><input class="bg-slate-300 w-12" type="text" name="" id="save-input">
+                    <span>%</span><button id="save-btn" class="bg-green-500 text-white  px-3 py-1 mb-4">Save</button>
+                    <p>Saving Ammount: <span id="saving-ammount">00</span></p>
+                    <h3>Remaining Balance: <span id="remaining-balance">00</span></h3>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header end -->
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/track-money.js"></script>
+</body>
+
+</html>
